@@ -1,0 +1,121 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.nav
+{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	background-color: #45f;
+}
+
+.nav a
+{
+	color:#fff;
+	overflow: hidden;
+}
+
+.brand
+{
+	float:left;
+	padding: 20px;
+	font-weight: 20px;
+	font-size: 20px;
+}
+
+.nav ul li
+{
+	display: inline-block;
+	position:relative;
+	padding: 20px;
+}
+
+.nav ul li ul
+{
+	position: absolute;
+	background-color: #45f;
+	display: none;
+}
+.nav ul li ul li
+{
+	padding: 20px;
+	border-bottom: 2px solid #000;
+	min-width: 120px;
+}
+
+.nav ul li:hover
+{
+	background-color: #24c;
+}
+
+.nav ul li:hover ul
+{
+	display: list-item;
+}
+
+.footer
+{
+	background-color: #45f;
+	padding: 20px;
+	text-align: center;
+	color:#fff;
+}
+
+.header-title
+{
+	background-image: url(fundo.jpg);
+	background-size: 100%;
+	color:#fff;
+	text-align: right;
+}
+
+.header-title h1
+{
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+.header-title p
+{
+	padding: 20px;
+	font-size: 20px;
+}
+
+.space
+{
+	height: 200px;
+}
+
+.product-list
+{
+	margin: 20px 80px;
+	border:2px solid #45f;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.product-list h2
+{
+	background-color: #45f;
+	color: #fff;
+}
+
+.product
+{
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	max-width: 20%;
+	background-color:#4574;
+	cursor: pointer;
+}
+
+.img-pd
+{
+	max-width: 100%;
+}
